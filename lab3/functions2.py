@@ -155,3 +155,4 @@ print ('')
 print ('Average IMDB of movies in the Romance category is: ')
 s2=avg_imdb_acc_to_cat(movies,'Romance')
 print (s2)
+
