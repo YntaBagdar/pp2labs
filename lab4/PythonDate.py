@@ -1,7 +1,6 @@
 
 #Write a Python program to subtract five days from current date.
 
-
 import datetime
 x = datetime.datetime.now().date()
 y = datetime.timedelta(5)
@@ -28,8 +27,6 @@ x = datetime.datetime.now()
 print("Microseconds from datetime: ", x.strftime("%f"))
 
 
-
-
 #Write a Python program to calculate two date difference in seconds.
 """import datetime
 x = datetime.datetime.now()
@@ -48,6 +45,11 @@ date2 = datetime.now()
 print("\n%d seconds" %(date_diff_in_Seconds(date2, date1)))
 print()
 
+import datetime
+x = datetime.datetime.now()
+y = datetime.timedelta(1)
+z = x-y
+print(z.strftime("%f"))
 
 
 
